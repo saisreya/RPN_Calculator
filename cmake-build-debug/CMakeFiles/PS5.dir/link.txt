@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/PS5.dir/main.c.o  -o PS5 

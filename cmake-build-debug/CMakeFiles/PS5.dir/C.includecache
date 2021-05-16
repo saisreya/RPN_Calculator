@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/PS5/main.c
+stdio.h
+-
+rpn.c
+/tmp/PS5/rpn.c
+
+/tmp/PS5/node.c
+stdio.h
+-
+stdlib.h
+-
+node.h
+/tmp/PS5/node.h
+
+/tmp/PS5/node.h
+
+/tmp/PS5/rpn.c
+string.h
+-
+stack.c
+/tmp/PS5/stack.c
+stdbool.h
+-
+rpn.h
+/tmp/PS5/rpn.h
+
+/tmp/PS5/rpn.h
+
+/tmp/PS5/stack.c
+stack.h
+/tmp/PS5/stack.h
+
+/tmp/PS5/stack.h
+node.c
+/tmp/PS5/node.c
+
